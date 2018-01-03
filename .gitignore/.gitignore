@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css?v=0.6">
+		<title>微信跳一跳*屏蔽的关键字*助手</title>
+	</head>
+	<body>
+		<div class="container container_wrap">
+			<p class="text-danger">2018年1月3日 16:00 更新测试版本，测试成功。</p>
+			<h3>微信跳一跳*屏蔽的关键字*助手
+				<small>BETA 0.4</small>
+			</h3>
+			<div class="form-group">
+				<label for="sessionId">抓包获得的SESSION_ID
+					
+				</label>
+				<input type="text" class="form-control" id="sessionId" placeholder="session_id值">
+			</div>
+			<div class="form-group has-error has-feedback">
+				<label for="score">分数</label>
+				<input type="text" class="form-control" id="score" placeholder="不建议超过1000分，分数越高封的可能性越大">
+			</div>
+			<button class="btn btn-primary" id="submit">提交</button>&nbsp;&nbsp;
+			
+			<div class="result">
+				<p class="text-warning">Response Result</p>
+			</div>
+			<ol>
+				<li>程序一直在更新，所以会时常出现由于缓存而导致的各种错误，请尝试用浏览器的隐身模式访问。</li>
+				<li>本站不会且没必要保存您的session_id值，本站程序只是代构造转发数据，请您不要将您的session_id值发到公共论坛里，防止被人恶意刷分导致被封。</li>
+				<li>提交成功后排名无变化，一般是需要彻底结束杀死微信的进程并重新启动查看。</li>
+				<li>联系方式:idzjy123@qq.com</li>
+			
+			</ol>
+			
+		</div>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="js/index.js?v=0.6">
+		</script>
+		<div class="amount">
+			<script src="https://s22.cnzz.com/z_stat.php?id=1271859680&web_id=1271859680" language="JavaScript">
+			</script>
+		</div>
+	</body>
+
+</html>
